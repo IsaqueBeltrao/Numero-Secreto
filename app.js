@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numerolimite = 100;
+let numerolimite = 50;
 // vai pegar o resultado do numero aleatório da ultima função e guardar na variável " numeroScreto"
 //  TBM esta variável está recebendo o valor de uma função
 let numeroScreto = gerarNumeroAleatorio();
@@ -14,7 +14,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 exibirMensagemInicial();
 
